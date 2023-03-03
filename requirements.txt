@@ -1,2 +1,1 @@
-django
-gunicorn
+django == 4.1.7
