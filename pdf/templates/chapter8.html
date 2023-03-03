@@ -1,0 +1,162 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<style>
+    article {
+        margin-bottom: 30px;
+    }
+</style>
+
+    <main class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <article class="border p-3 text-center">
+                    <h1>CHAPTER 8</h1>
+                    <h2>
+                        Notes and Labels
+                    </h2>
+                    <p>
+                        Notes and labels are an essential part of any AutoCAD drawing, as they provide information about the design and help convey important details to others who will be using the drawing. Here are some ways to create notes and labels in AutoCAD:
+                        <ul>
+                            <li>
+                                Text: You can use the "Text" command to add standard or multi-line text to your drawing. You can also adjust the font, size, and style of the text, and align it as needed
+                            </li>
+                            <li>
+                                Dimensions: Dimensions are an important type of label that convey the size and position of objects in your drawing. You can create dimensions using the "Dimension" command and choose from various types, such as linear, angular, and radial dimensions
+                            </li>
+                            <li>
+                                Leaders: Leaders are used to create annotations that point to a specific location in your drawing. You can create leaders using the "Leader" command and customize the appearance of the leader and the text.
+                            </li>
+                            <li>
+                                Tables: Tables are used to organize data in your drawing, such as bill of materials or schedules. You can create tables using the "Table" command and add and format columns and rows as needed.
+                            </li>
+                            <li>
+                                Blocks: Blocks are used to create reusable content in your drawing, such as symbols, logos, or notes. You can create blocks using the "Block" command and insert them into your drawing as needed.
+                            </li>
+                            <li>
+                                Callouts: Callouts are used to highlight specific areas of your drawing and provide additional information. You can create callouts using the "Callout" command and customize the appearance of the callout and the text.
+                            </li>
+                            Overall, notes and labels are an important aspect of any AutoCAD drawing, and using these tools effectively can help ensure that your design is clear, accurate, and easy to understand for others who will be using the drawing
+                        </ul>
+                    </p>
+                </article>
+            </div>
+
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <article class="border p-3 text-center">
+                    <h2>
+                        Create a text style
+                    </h2>
+                    <p>
+                        Creating a text style in AutoCAD allows you to define the appearance of text in your drawing. Here are the steps to create a text style in AutoCAD:
+                        <ul>
+                            <li>
+                                Open your AutoCAD drawing and navigate to the "Text Style" dialog box by typing "ST" in the command line or clicking on the "Text Style" button in the "Home" tab of the ribbon
+                            </li>
+                            <li>
+                                In the "Text Style" dialog box, click the "New" button to create a new text style.
+                            </li>
+                            <li>
+                                In the "New Text Style" dialog box, enter a name for the new text style.
+                            </li>
+                            <li>
+                                Choose the font, size, and other properties that you want to apply to the text style. You can choose from a variety of fonts and styles, including bold, italic, and underline.
+                            </li>
+                            <li>
+                                Preview the text style in the "Preview" area of the dialog box to make sure it looks the way you want.
+                            </li>
+                            <li>
+                                Click "OK" to save the new text style.
+                            </li>
+                            <li>
+                                To apply the text style to text in your drawing, select the text you want to change and choose the new text style from the "Text Style" drop-down menu in the "Properties" palette
+                            </li>
+                        </ul>
+                        By creating and using text styles in AutoCAD, you can ensure that all text in your drawing has a consistent appearance and is easy to read and understand.
+                    </p>
+                </article>
+            </div>
+
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <article class="border p-3 text-center">
+                    <h2>
+                        Multi leaders
+                    </h2>
+                    <p>
+                        Multi leaders in AutoCAD allow you to add multiple leaders to a single annotation or callout. Here are the steps to create a multi leader in AutoCAD:
+                        <ul>
+                            <li>
+                                Type "MLINE" in the command line or click on the "Multileader" button in the "Annotation" panel of the "Home" tab of the ribbon.
+                            </li>
+                            <li>
+                                In the "Multileader Style Manager" dialog box, click the "New" button to create a new multileader style
+                            </li>
+                            <li>
+                                In the "New Multileader Style" dialog box, enter a name for the new style
+                            </li>
+                            <li>
+                                Choose the appearance of the leader lines, arrowheads, and landing or landing gap for the style. You can also specify the text style, height, and color for the annotation
+                            </li>
+                            <li>
+                                Preview the multileader style in the "Preview" area of the dialog box to make sure it looks the way you want
+                            </li>
+                            <li>
+                                Click "OK" to save the new multileader style
+                            </li>
+                            <li>
+                                To add a multi leader to your drawing, select the "Multileader" tool from the "Annotation" panel of the "Home" tab of the ribbon
+                            </li>
+                            <li>
+                                Click the point where you want the first leader line to start
+                            </li>
+                            <li>
+                                Click additional points to specify the direction and length of each leader line.
+                            </li>
+                            <li>
+                                When you are ready to add the annotation, press "Enter" to open the "Text" editor. Type your text and press "Enter" to exit the editor.
+                            </li>
+                            <li>
+                                To add more leaders to the same annotation, select the "Multileader" tool again and repeat the process.
+                            </li>
+                            <li>
+                                To edit the properties of a multileader, select it and open the "Properties" palette. You can change the multileader style, text, and other properties from here
+                            </li>
+                        </ul>
+                        By using multileaders in AutoCAD, you can create more complex annotations and callouts that contain multiple pieces of information or reference multiple points in your drawing
+                    </p>
+                </article>
+            </div>
+
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <article class="border p-3 text-center">
+                    <h2>
+                        Create multileader style
+                    </h2>
+                    <p>
+                        Here are the steps to create a multileader style in AutoCAD
+                        <ul>
+                            <li>
+                                Type "MLSTYLE" in the command line or click on the "Multileader Style Manager" button in the "Annotation" panel of the "Home" tab of the ribbon
+                            </li>
+                            <li>
+                                In the "Multileader Style Manager" dialog box, click the "New" button to create a new multileader style
+                            </li>
+                            <li>
+                                In the "New Multileader Style" dialog box, enter a name for the new style.
+                            </li>
+                            <li>
+                                Choose the appearance of the leader lines, arrowheads, and landing or landing gap for the style. You can also specify the text style, height, and color for the annotation
+                            </li>
+                            <li>
+                                Preview the multileader style in the "Preview" area of the dialog box to make sure it looks the way you want.
+                            </li>
+                            <li>
+                                Click "OK" to save the new multileader style.
+                            </li>
+                        </ul>
+                    </p>
+                </article>
+            </div>
+        </div>
+    </main>
+{% endblock %}

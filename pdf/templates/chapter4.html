@@ -1,0 +1,209 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<style>
+    article {
+        margin-bottom: 30px;
+    }
+</style>
+
+    <main class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <article class="border p-3 text-center">
+                    <h1>CHAPTER 4</h1>
+                    <h2>
+                        Layers
+                    </h2>
+                    <p>
+                        Layers in AutoCAD are like transparent sheets that you can draw on top of each other. They help you organize your drawing and control the visibility and color of different elements. Here's how to work with layers in AutoCAD
+                        <ul>
+                            <li>
+                                Create a new layer by clicking on the "Layer Properties" button in the Home tab, or by typing "LAYER" in the command line and pressing Enter. In the Layer Properties Manager, click on the "New Layer" button and give your new layer a name.
+                            </li>
+                            <li>
+                                Set the properties of the layer, such as its color, linetype, and plot style. You can do this by double-clicking on the layer name in the Layer Properties Manager.
+                            </li>
+                            <li>
+                                Assign objects to the layer by selecting them and then choosing the desired layer from the Layer drop-down menu in the Properties palette. You can also move objects between layers by using the "Change Object Layer" command or the "Match Properties" command.
+                            </li>
+                            <li>
+                                Turn layers on and off by clicking on the "On/Off" button next to the layer name in the Layer Properties Manager, or by typing "LAYOFF" and selecting the desired layers. This allows you to control the visibility of different elements in your drawing
+                            </li>
+                            <li>
+                                Freeze or thaw layers by clicking on the "Snowflake" button next to the layer name in the Layer Properties Manager, or by typing "LAYFRZ" and selecting the desired layers. Freezing a layer hides all of its objects, while thawing a layer shows them again
+                            </li>
+                            <li>
+                                Lock layers by clicking on the "Lock" button next to the layer name in the Layer Properties Manager, or by typing "LAYLCK" and selecting the desired layers. Locking a layer prevents you from accidentally modifying its objects
+                            </li>
+                        </ul>
+                        By using layers in AutoCAD, you can organize your drawing and make it easier to work with. You can also use layers to create different views or versions of your drawing, such as a plan view, elevation view, or section view.
+                    </p>
+                </article>
+            </div>
+
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <article class="border p-3 text-center">
+                    <h2>
+                        Layers(continued)
+                    </h2>
+                    <p>
+                        Here are some additional tips for working with layers in AutoCAD
+                        <ul>
+                            <li>
+                                Set the current layer by clicking on the desired layer in the Layer drop-down menu in the Properties palette, or by typing "LA" and selecting the desired layer. This determines which layer new objects will be created on.
+                            </li>
+                            <li>
+                                Create layer filters to easily select and modify objects on specific layers. You can do this by clicking on the "Filter" button in the Layer Properties Manager, or by typing "LAYER" and then "FILTER" in the command line. Layer filters allow you to quickly select or modify all objects on certain layers, or to isolate specific layers for editing.
+                            </li>
+                            <li>
+                                Use the "Match Properties" command to copy the properties of one object to another object or group of objects. You can do this by selecting the source object, typing "MATCHPROP" in the command line, and then selecting the target object or objects. This is a quick way to apply the same layer properties to multiple objects at once
+                            </li>
+                            <li>
+                                Create layer states to save and restore sets of layer settings. You can do this by clicking on the "Layer States" button in the Layer Properties Manager, or by typing "LAYERSTATE" in the command line. Layer states allow you to quickly switch between different layer configurations, such as for different stages of a project or for different printing options.
+                            </li>
+                        </ul>
+                    </p>
+                </article>
+            </div>
+
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <article class="border p-3 text-center">
+                    <h2>
+                        Layer Controls
+                    </h2>
+                    <p>
+                        Layer controls in AutoCAD refer to a set of tools and features that allow you to manage and modify layers in your drawing. Here are some of the main layer controls in AutoCAD
+                        <ul>
+                            <li>
+                                Layer Properties Manager: This is the main interface for creating, modifying, and managing layers in your drawing. You can access it by clicking on the "Layer Properties" button in the Home tab, or by typing "LAYER" in the command line. From here, you can set layer properties such as color, linetype, and plot style.
+                            </li>
+                            <li>
+                                Layer States Manager: This allows you to save and restore different sets of layer settings, such as for different design options or printing configurations. You can access it by clicking on the "Layer States" button in the Layer Properties Manager, or by typing "LAYERSTATE" in the command line. This is useful for quickly switching between different layer configurations for different purposes.
+                            </li>
+                            <li>
+                                Layer Filters: These allow you to selectively display or edit objects on specific layers, based on various criteria such as color, linetype, or plot style. You can access them by clicking on the "Filter" button in the Layer Properties Manager, or by typing "LAYER" and then "FILTER" in the command line. This is useful for working with complex drawings with many layers.
+                            </li>
+                            <li>
+                                Layer Freeze/Thaw: This allows you to temporarily hide or display objects on certain layers, without deleting or modifying them. You can access it by clicking on the "Snowflake" button in the Layer Properties Manager, or by typing "LAYFRZ" and selecting the desired layers. This is useful for simplifying complex drawings or for working on specific parts of a drawing.
+                            </li>
+                            <li>
+                                Layer Lock/Unlock: This allows you to protect objects on certain layers from being accidentally modified, while still allowing them to be visible. You can access it by clicking on the "Lock" button in the Layer Properties Manager, or by typing "LAYLCK" and selecting the desired layers. This is useful for ensuring that certain layers or objects are not accidentally modified or deleted
+                            </li>
+                            <li>
+                                Layer Previous: This allows you to quickly return to the previous layer you were working on, without having to select it again. You can access it by typing "LAYER" and then "P" in the command line. This is useful for quickly switching between layers during the drawing process.
+                            </li>
+                            <li>
+                                Layer Isolate/End Isolation: This allows you to temporarily hide all other layers except for the current one, making it easier to focus on specific objects or details. You can access it by typing "LAYISO" in the command line, and then "LAYOFF" to end isolation. This is useful for working on complex drawings with many layers, or for highlighting specific parts of a drawing.
+                            </li>
+                        </ul>
+                    </p>
+                </article>
+            </div>
+
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <article class="border p-3 text-center">
+                    <h2>
+                        Layer setting
+                    </h2>
+                    <p>
+                        Layer settings in AutoCAD refer to the various properties that you can assign to a layer in your drawing. These properties determine the appearance and behavior of objects on that layer, as well as how they are plotted or printed. Here are some of the main layer settings in AutoCAD
+                        <ul>
+                            <li>
+                                Layer Name: This is the name of the layer, which is used to identify and organize objects in your drawing.
+                            </li>
+                            <li>
+                                Layer Color: This determines the color of objects on the layer, as displayed on the screen and in printouts. You can choose from a wide range of colors, or specify a custom color.
+                            </li>
+                            <li>
+                                Layer Linetype: This determines the type of line used to display objects on the layer, such as solid, dashed, dotted, or centerline. You can choose from a wide range of standard linetypes, or create your own custom linetype
+                            </li>
+                            <li>
+                                Layer Lineweight: This determines the thickness of the lines used to display objects on the layer, as displayed on the screen and in printouts. You can choose from a wide range of lineweights, or specify a custom lineweight
+                            </li>
+                            <li>
+                                Layer Plot Style: This determines how objects on the layer are plotted or printed, such as in black and white, grayscale, or color. You can choose from a wide range of plot styles, or create your own custom plot style.
+                            </li>
+                            <li>
+                                Layer Transparency: This determines the degree of transparency of objects on the layer, which can be useful for creating special effects or for making certain objects stand out. You can choose from a range of transparency levels, from fully opaque to fully transparent
+                            </li>
+                            <li>
+                                Layer Lock/Unlock: This allows you to protect objects on certain layers from being accidentally modified, while still allowing them to be visible. You can lock or unlock a layer by using the "Lock" button in the Layer Properties Manager
+                            </li>
+                        </ul>
+                        By setting these layer properties in AutoCAD, you can control the appearance and behavior of objects in your drawing, as well as how they are plotted or printed. This can help you create more professional and accurate drawings, and make it easier to work with complex drawings with many layers.
+                    </p>
+                </article>
+            </div>
+
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <article class="border p-3 text-center">
+                    <h2>Controls in the Layer Properties Manager
+                    </h2>
+                    <p>
+                        The Layer Properties Manager in AutoCAD is a powerful tool for managing the layers in your drawing. It allows you to create, modify, and delete layers, as well as change their properties, settings, and display order. Here are some of the main controls in the Layer Properties Manager
+                        <ul>
+                            <li>
+                                New Layer: This button allows you to create a new layer in your drawing. You can specify the name, color, linetype, lineweight, plot style, transparency, and other properties of the new layer
+                            </li>
+                            <li>
+                                Delete Layer: This button allows you to delete a layer from your drawing. You can only delete an empty layer, or you can choose to move the objects on the layer to a different layer before deleting it.
+                            </li>
+                            <li>
+                                Layer Properties: This button allows you to view and edit the properties of a selected layer, such as its name, color, linetype, lineweight, plot style, transparency, and other settings
+                            </li>
+                            <li>
+                                Layer Filters: This button allows you to filter and display layers based on certain criteria, such as name, color, linetype, or plot style. This can help you find and work with specific layers more easily.
+                            </li>
+                            <li>
+                                Layer States: This button allows you to save and restore sets of layer properties, settings, and display order, known as layer states. You can create and apply layer states to quickly switch between different layer configurations in your drawing
+                            </li>
+                            <li>
+                                Layer Order: This control allows you to change the display order of layers in your drawing, by moving them up or down in the layer list. The order of layers can affect how objects are displayed and plotted, especially when they overlap or intersect.
+                            </li>
+                            <li>
+                                Layer Freeze/Thaw: This control allows you to temporarily hide or show objects on a selected layer, by freezing or thawing the layer. This can be useful for focusing on specific parts of your drawing, or for improving performance by reducing the number of visible objects.
+                            </li>
+                        </ul>
+                        By using these controls in the Layer Properties Manager, you can easily manage and customize the layers in your drawing, and control how objects are displayed, plotted, and printed. This can help you create more organized, professional, and efficient drawings, and make it easier to work with complex or collaborative projects.
+                    </p>
+                </article>
+            </div>
+
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <article class="border p-3 text-center">
+                    <h2>
+                        Maintain your standard
+                    </h2>
+                    <p>
+                        Maintaining standards in AutoCAD is essential for creating professional-looking drawings that are easy to read, edit, and share. Here are some tips for maintaining your standards in AutoCAD:
+                        <ul>
+                            <li>
+                                Use templates: Creating and using templates is a great way to ensure consistency and standardization in your drawings. You can create templates that include all the necessary layers, blocks, text styles, dimensions styles, and other settings that you need for a specific type of drawing.
+                            </li>
+                            <li>
+                                Follow layer naming conventions: Using a consistent layer naming convention will help you keep track of your layers, avoid conflicts, and make it easier to select and manipulate objects. You can use a standard prefix or suffix for each layer name that reflects its function, discipline, or status.
+                            </li>
+                            <li>
+                                Use blocks and attributes: Using blocks and attributes can help you standardize and automate repetitive tasks, such as inserting symbols, labels, or notes. You can create blocks with attributes that allow you to modify the text, size, or other properties of each instance of the block
+                            </li>
+                            <li>
+                                Standardize text styles: Using a consistent set of text styles will make your text more legible, uniform, and easy to edit. You can define text styles for different types of text, such as titles, labels, dimensions, and notes, and adjust their properties, such as font, size, and spacing.
+                            </li>
+                            <li>
+                                Standardize dimension styles: Using a consistent set of dimension styles will help you maintain the accuracy, clarity, and readability of your dimensions. You can create dimension styles that reflect your drawing standards and use them for different types of dimensions, such as linear, angular, or radial.
+                            </li>
+                            <li>
+                                Use external references: Using external references can help you share and collaborate on your drawings more efficiently, while maintaining your standards. You can create reference drawings that contain standard components, such as title blocks, borders, or symbols, and link them to your main drawing
+                            </li>
+                            <li>
+                                Maintain a library of standards: Maintaining a library of standards, such as drawing templates, blocks, text styles, dimension styles, and other settings, can help you ensure consistency and efficiency across your drawings. You can update and refine your standards over time, based on feedback and experience
+                            </li>
+                        </ul>
+                        By following these tips, you can maintain your standards in AutoCAD and create high-quality, professional-looking drawings that meet your needs and the needs of your clients or collaborators.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </main>
+{% endblock %}

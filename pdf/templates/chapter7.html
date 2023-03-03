@@ -1,0 +1,280 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<style>
+    article {
+        margin-bottom: 30px;
+    }
+</style>
+
+    <main class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <article class="border p-3 text-center">
+                    <h1>CHAPTER 7</h1>
+                    <h2>Blocks and Layouts</h2>
+                    <p>
+                        <ul>
+                            <li>
+                                Blocks and layouts are important features in AutoCAD that allow you to organize your designs and work more efficiently.
+                            </li>
+                            <li>
+                                Blocks are groups of objects that can be treated as a single entity. They are useful for creating repetitive elements, such as doors or windows, and for keeping your drawing organized. To create a block, select the objects that you want to include and use the "BLOCK" command. You can then insert the block into your drawing as many times as you need.
+                            </li>
+                            <li>
+                                Layouts are views of your drawing that can be printed or exported separately. They allow you to create multiple views of the same drawing, such as a floor plan and an elevation, and to organize your drawing in a way that makes sense for your project. To create a new layout, use the "LAYOUT" command. You can then set the page size, scale, and other properties of the layout, and add viewports to show different parts of your drawing
+                            </li>
+                            <li>
+                                In AutoCAD, you can switch between layouts using the "LAYOUT" command or by clicking on the tabs at the bottom of the screen. You can also use the "MODEL" command to switch back to the main drawing area.
+                            </li>
+                            <li>
+                                Using blocks and layouts can help you to work more efficiently and accurately in AutoCAD. By creating blocks for repetitive elements, you can save time and ensure consistency in your drawings. By using layouts, you can create multiple views of your drawing and organize your work in a way that makes sense for your project
+                            </li>
+                        </ul>
+                    </p>
+                </article>
+            </div>
+
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <article class="border p-3 text-center">
+                    <h2>
+                        Insert a block
+                    </h2>
+                    <p>
+                        To insert a block in AutoCAD, follow these steps:
+                        <ul>
+                            <li>
+                                Type "INSERT" in the command line or select "Insert" from the "Home" tab on the ribbon
+                            </li>
+                            <li>
+                                In the "Insert" dialog box, select the drawing file that contains the block you want to insert.
+                            </li>
+                            <li>
+                                Specify the insertion point for the block by clicking on a point in the drawing or typing in the coordinates
+                            </li>
+                            <li>
+                                Specify the scale and rotation of the block, if necessary, by typing in the appropriate values.
+                            </li>
+                            <li>
+                                Click "OK" to insert the block.
+                            </li>
+                            <li>
+                                You can also use the "INSERT" command to insert a block. Simply type "INSERT" in the command line and follow steps 2-6 above
+                            </li>
+                        </ul>
+                        Once the block is inserted, you can modify its properties using the "Properties" palette. You can also explode the block to turn it back into individual objects, or redefine the block to update its properties or contents.
+Inserting blocks is a powerful feature in AutoCAD that allows you to create repetitive elements and save time in your drawing process. With a little practice, you can use blocks to create complex designs and work more efficiently with your drawings.
+                    </p>
+                </article>
+            </div>
+
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <article class="border p-3 text-center">
+                    <h2>
+                        Create a block definition
+                    </h2>
+                    <p>
+                        To create a block definition in AutoCAD, follow these steps
+                        <ul>
+                            <li>
+                                Select the objects that you want to include in the block.
+                            </li>
+                            <li>
+                                Type "BLOCK" in the command line or select "Block" from the "Insert" tab on the ribbon
+                            </li>
+                            <li>
+                                In the "Block Definition" dialog box, give the block a name and choose a base point. The base point is the point that represents the insertion point of the block
+                            </li>
+                            <li>
+                                Specify any other options for the block, such as allowing it to be exploded or selecting an object to use as the block's rotation angle.
+                            </li>
+                            <li>
+                                Click "OK" to create the block
+                            </li>
+                            <li>
+                                Once you have created the block definition, you can insert it into your drawing using the "INSERT" command. To modify the block definition, you can use the "BLOCK" command again to redefine the block with different objects or settings.
+                            </li>
+                        </ul>
+                        Creating block definitions is a powerful feature in AutoCAD that allows you to create reusable elements and save time in your drawing process. By creating blocks for repetitive elements such as doors or windows, you can ensure consistency in your drawings and work more efficiently. With a little practice, you can use blocks to create complex designs and streamline your workflow
+                    </p>
+                </article>
+            </div>
+
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <article class="border p-3 text-center">
+                    <h2>
+                        Layouts
+                    </h2>
+                    <p>
+                        In AutoCAD, layouts are used to create a printable or viewable area of your drawing at a specific scale. Layouts are often used to create drawings that are intended for printing or sharing with others. To create a layout in AutoCAD, follow these steps:
+                        <ul>
+                            <li>
+                                Open the "Layout" tab on the ribbon or type "layout" in the command line and hit Enter.
+                            </li>
+                            <li>
+                                Click the "New Layout" button to create a new layout. Alternatively, you can right-click on an existing layout tab and select "New Layout" from the context menu.
+                            </li>
+                            <li>
+                                In the "Page Setup" dialog box, specify the paper size, orientation, and other settings for the layout.
+                            </li>
+                            <li>
+                                Use the "Viewport" tool to create a viewport on the layout. Viewports are used to define the area of the drawing that will be visible in the layout.
+                            </li>
+                            <li>
+                                Scale and position the viewport as necessary to show the desired portion of the drawing.
+                            </li>
+                            <li>
+                                Repeat steps 4-5 as necessary to add additional viewports to the layout
+                            </li>
+                            <li>
+                                Save the layout
+                            </li>
+                            <li>
+                                Once you have created a layout, you can switch between layouts by clicking on the layout tabs at the bottom of the drawing window. You can also modify the settings for a layout by right-clicking on its tab and selecting "Page Setup Manager" or "Properties" from the context menu.
+                            </li>
+                        </ul>
+                    </p>
+                </article>
+            </div>
+
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <article class="border p-3 text-center">
+                    <h2>
+                        Four method of scaling
+                    </h2>
+                    <p>
+                        In AutoCAD, there are four methods of scaling that you can use to resize your drawing:
+                        <ul>
+                            <li>
+                                Scale Command: The most basic method of scaling is to use the "Scale" command. With this method, you can select one or more objects and specify a scale factor by which to resize them. You can choose to scale uniformly or in different directions
+                            </li>
+                            <li>
+                                Stretch Command: The "Stretch" command can be used to resize objects in a specific direction. This method is useful when you need to stretch an object without changing its overall shape.
+                            </li>
+                            <li>
+                                Grips: Each object in AutoCAD has one or more grips that you can use to resize it. Grips are small squares that appear at key points on an object when you select it. By clicking and dragging on a grip, you can resize the object.
+                            </li>
+                            <li>
+                                Properties Palette: The "Properties" palette is a powerful tool for modifying object properties in AutoCAD. When you select an object, the Properties palette displays information about its properties, including its scale. You can change the scale of an object by editing the "Scale X," "Scale Y," and "Scale Z" properties.
+                            </li>
+                        </ul>
+                        Each method of scaling has its own advantages and disadvantages, and the method you choose will depend on your specific needs and the type of objects you are working with. By mastering these scaling techniques, you can ensure that your drawings are accurately sized and proportioned
+                    </p>
+                </article>
+            </div>
+
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <article class="border p-3 text-center">
+                    <h2>
+                        Specifying the paper size of the layout
+                    </h2>
+                    <p>
+                        To specify the paper size of a layout in AutoCAD, follow these steps:
+                        <ul>
+                            <li>
+                                Open the "Layout" tab on the ribbon or type "layout" in the command line and hit Enter
+                            </li>
+                            <li>
+                                Click on the layout tab for which you want to specify the paper size.
+                            </li>
+                            <li>
+                                Type "PAGESETUP" in the command line and press Enter
+                            </li>
+                            <li>
+                                In the "Page Setup Manager" dialog box, click the "Modify" button next to the current page setup.
+                            </li>
+                            <li>
+                                In the "Page Setup" dialog box, select the desired paper size from the "Paper Size" drop-down list. Alternatively, you can create a custom paper size by selecting "Custom Size" from the list and entering the desired dimensions
+                            </li>
+                            <li>
+                                Set any other desired options for the page setup, such as the plot area, plot style, or plot scale
+                            </li>
+                            <li>
+                                Click "OK" to save the page setup changes.
+                            </li>
+                        </ul>
+                        Once you have specified the paper size for your layout, you can adjust the viewport scale and position to fit your drawing within the layout. You can also set up multiple layouts with different paper sizes to create a multi-page drawing or to prepare your drawing for different printing or sharing scenarios.
+                    </p>
+                </article>
+            </div>
+
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <article class="border p-3 text-center">
+                    <h2>
+                        Layout viewports
+                    </h2>
+                    <p>
+                        Layout viewports in AutoCAD allow you to create multiple views of your drawing in a single layout. Each viewport displays a different area of the drawing, and you can adjust the scale, position, and other properties of each viewport independently. Here are the basic steps for creating a viewport in AutoCAD
+                        <ul>
+                            <li>
+                                Open the "Layout" tab on the ribbon or type "layout" in the command line and hit Enter.
+                            </li>
+                            <li>
+                                Click on the layout tab where you want to create the viewport.
+                            </li>
+                            <li>
+                                Click the "Viewport" button on the ribbon or type "MVIEW" in the command line and hit Enter.
+                            </li>
+                            <li>
+                                Click and drag to define the area where you want the viewport to appear
+                            </li>
+                            <li>
+                                Use the grips on the viewport boundary to adjust its size and position as needed.
+                            </li>
+                            <li>
+                                To specify the scale of the viewport, double-click inside the viewport to activate it, then use the "Zoom" or "Zoom Scale" commands to adjust the view. You can also use the "Properties" palette to set the viewport scale and other properties
+                            </li>
+                            <li>
+                                Repeat the process to create additional viewports as needed
+                            </li>
+                        </ul>
+                        Once you have created your viewports, you can customize their appearance by adding borders, titles, and other annotation. You can also use the "Plot" command to generate a paper copy or digital output of the layout with all of the viewports displayed at their specified scales and positions.
+                    </p>
+                </article>
+            </div>
+
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <article class="border p-3 text-center">
+                    <h2>
+                        Scaling views and trans spatial annotation
+                    </h2>
+                    <p>
+                        Scaling views and trans-spatial annotation are two related features in AutoCAD that allow you to create different views of your drawing and add annotations that adjust automatically based on the scale and position of each view
+                        <ul>
+                            <li>
+                                To create scaled views in AutoCAD, you can use the "Viewport" command to create multiple views of your drawing in a single layout. Each viewport can be set to a different scale, and you can adjust the view and add annotation as needed.
+                            </li>
+                            <li>
+                                Trans-spatial Annotation
+                            </li>
+                            <li>
+                                To create trans-spatial annotation in AutoCAD, you can use annotative objects. Annotative objects are text, dimensions, and other annotations that adjust automatically based on the scale and position of the viewport where they are displayed. To create annotative objects, you need to first enable the "Annotative" property for the objects you want to make annotative. You can then set the scale and other properties for each annotative object, and they will adjust automatically based on the viewport scale and position.
+                            </li>
+                            <li>
+                                To enable annotative objects in AutoCAD, follow these steps:
+                            </li>
+                            <li>
+                                Open the "Properties" palette.
+                            </li>
+                            <li>
+                                Select the object you want to make annotative.
+                            </li>
+                            <li>
+                                In the "Properties" palette, click the "Annotative" property to enable it.
+                            </li>
+                            <li>
+                                In the "Annotation Scale" drop-down list, select the desired scale for the object.
+                            </li>
+                            <li>
+                                Repeat the process for any other objects you want to make annotative.
+                            </li>
+                            <li>
+                                
+                            </li>
+                        </ul>
+                    </p>
+                </article>
+            </div>
+        </div>
+    </main>
+{% endblock %}

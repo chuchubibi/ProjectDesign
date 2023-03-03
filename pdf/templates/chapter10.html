@@ -1,0 +1,134 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<style>
+    article {
+        margin-bottom: 30px;
+    }
+</style>
+
+    <main class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <article class="border p-3 text-center">
+                    <h1>chapter 10</h1>
+                    <h2>
+                        Printing
+                    </h2>
+                    <p>
+                        Printing in AutoCAD involves specifying the printer, paper size, and other printing parameters to create a printed version of your drawing. Here are the basic steps for printing a drawing in AutoCAD:
+                        <ul>
+                            <li>
+                                Open the drawing you want to print.
+                            </li>
+                            <li>
+                                Type "PLOT" or "PLOTTERMANAGER" in the command line and press Enter. The Plot dialog box or Plotter Manager dialog box will appear.
+                            </li>
+                            <li>
+                                In the Plot dialog box or Plotter Manager dialog box, select the printer you want to use from the list of available printers. You can also add a new printer if necessary.
+                            </li>
+                            <li>
+                                Choose the paper size you want to use from the list of available sizes.
+                            </li>
+                            <li>
+                                Set the print scale and other printing parameters as needed. You can adjust the print scale using the "Scale" option in the Plot dialog box or Plotter Manager dialog box.
+                            </li>
+                            <li>
+                                Preview the drawing to make sure it looks correct.
+                            </li>
+                            <li>
+                                Click the "OK" button to print the drawing
+                            </li>
+                        </ul>
+                        In addition to these basic steps, there are many other printing options available in AutoCAD, such as selecting a specific area of the drawing to print, printing multiple copies of the drawing, and choosing different print quality options. You can access these options from the Plot dialog box or Plotter Manager dialog box. It's also important to make sure that the printer you are using is properly configured and has the correct drivers installed to ensure a successful print job.
+                    </p>
+                </article>
+            </div>
+
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <article class="border p-3 text-center">
+                    <h2>
+                        Create a page set up
+                    </h2>
+                    <p>
+                        To create a page setup in AutoCAD, follow these steps:
+                        <ul>
+                            <li>
+                                Open the drawing you want to set up for printing.
+                            </li>
+                            <li>
+                                Type "PAGESETUP" in the command line and press Enter. The Page Setup Manager dialog box will appear
+                            </li>
+                            <li>
+                                Click on the "New" button to create a new page setup
+                            </li>
+                            <li>
+                                In the "New Page Setup" dialog box, enter a name for the page setup in the "Name" field.
+                            </li>
+                            <li>
+                                Under the "Printer/Plotter" section, select the printer or plotter you want to use for printing
+                            </li>
+                            <li>
+                                Under the "Paper Size" section, select the paper size you want to use for printing. You can choose from standard paper sizes or create a custom paper size.
+                            </li>
+                            <li>
+                                Under the "Plot Area" section, select the area of the drawing you want to print. You can choose to print the entire drawing, a specific area of the drawing, or a window that you define
+                            </li>
+                            <li>
+                                Under the "Plot Scale" section, select the print scale you want to use. You can choose to use a specific scale factor or fit the drawing to the selected paper size.
+                            </li>
+                            <li>
+                                Under the "Plot Style Table" section, select the plot style table you want to use. This determines how colors and lineweights are printed.
+                            </li>
+                            <li>
+                                Click the "OK" button to save the page setup
+                            </li>
+                        </ul>
+                        Once you have created a page setup, you can use it to print your drawing by selecting it from the "Page Setup" dropdown menu in the Plot dialog box or Plotter Manager dialog box. This allows you to quickly and easily set up your drawing for printing without having to manually adjust the printer, paper size, or other settings every time.
+                    </p>
+                </article>
+            </div>
+
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <article class="border p-3 text-center">
+                    <h2>
+                        Output to a pdf file
+                    </h2>
+                    <p>
+                        To output a drawing as a PDF file in AutoCAD, you can use the "Plot" command and select the "PDF" option in the "Printer/Plotter" field. Here are the steps:
+                        <ul>
+                            <li>
+                                Open the drawing you want to export as a PDF
+                            </li>
+                            <li>
+                                Type "PLOT" in the command line and press Enter to open the Plot dialog box.
+                            </li>
+                            <li>
+                                In the Plot dialog box, select the "PDF" option in the "Printer/Plotter" field. If you don't see the PDF option, you may need to install a PDF printer driver.
+                            </li>
+                            <li>
+                                Under the "Paper Size" section, select the paper size you want to use. You can choose from standard paper sizes or create a custom paper size.
+                            </li>
+                            <li>
+                                Under the "Plot Area" section, select the area of the drawing you want to print. You can choose to print the entire drawing, a specific area of the drawing, or a window that you define.
+                            </li>
+                            <li>
+                                Under the "Plot Scale" section, select the print scale you want to use. You can choose to use a specific scale factor or fit the drawing to the selected paper size.
+                            </li>
+                            <li>
+                                Under the "Plot Style Table" section, select the plot style table you want to use. This determines how colors and lineweights are printed.
+                            </li>
+                            <li>
+                                Under the "PDF Options" section, you can specify additional settings such as the output directory, the PDF filename, and other PDF-specific settings.
+                            </li>
+                            <li>
+                                Click the "OK" button to save the PDF file
+                            </li>
+                        </ul>
+                        Once the PDF file is created, you can open it in any PDF viewer or editor to view and edit the file as needed
+                    </p>
+                </article>
+            </div>
+        </div>
+    </main>
+{% endblock %}

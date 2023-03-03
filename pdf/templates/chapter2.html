@@ -1,0 +1,105 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<style>
+    article {
+        margin-bottom: 30px;
+    }
+</style>
+
+    <main class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <article class="border p-3 text-center">
+                    <h1>CHAPTER 2</h1>
+                    <h2>Viewing</h2>
+                    <p>
+                        Viewing in AutoCAD allows you to control how your drawing is displayed on the screen, including the zoom level, orientation, and perspective. Here are some of the basic viewing tools and commands in AutoCAD
+                        <ul>
+                            <li>
+                                Zoom in and out: To zoom in and out, you can use the scroll wheel on your mouse, or type "ZOOM" in the command line and select "Zoom In" or "Zoom Out." You can also specify a specific zoom level using the "Zoom" command.
+                            </li>    
+                            <li>
+                                Pan: To pan the view, click and hold the scroll wheel on your mouse, or type "PAN" in the command line and drag the cursor to move the view
+                            </li>
+                            <li>
+                                Orbit: To change the orientation of the view, you can use the "Orbit" command. This allows you to rotate the view around a center point.
+                            </li>
+                            <li>
+                                Views: AutoCAD provides a range of preset views, such as Top, Front, Left, and Isometric, which you can select from the "View" tab in the ribbon. You can also save your own custom views.
+                            </li>
+                            <li>
+                                Layouts: In addition to the model space, AutoCAD provides "Layouts" for creating sheets with multiple views, including plan views, sections, and elevations
+                            </li>
+                            <li>
+                                Viewport: Viewports allow you to display different parts of your drawing at different scales and orientations. You can create multiple viewports in a single layout and adjust their properties as desired
+                            </li>
+                        </ul>
+                        Using these viewing tools and commands in AutoCAD, you can control how your drawing is displayed on the screen and make it easier to work with and visualize.
+                    </p>
+                </article>
+            </div>
+
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <article class="border p-3 text-center">
+                    <h2>
+                        Overlapping Objects
+                    </h2>
+                    <p>
+                        Overlapping objects in AutoCAD can create confusion and make it difficult to select and edit individual objects. Here are some techniques you can use to deal with overlapping objects in AutoCAD:
+                        <ul>
+                            <li>
+                                Selection methods: AutoCAD provides several selection methods that can help you select individual objects, even if they are overlapping. For example, you can use the "Window" selection method to select all objects completely enclosed within a rectangular area. You can also use the "Crossing" selection method to select all objects that cross a rectangular area
+                            </li>
+                            <li>
+                                Object snapping: Object snapping allows you to snap to specific points on an object, such as the endpoint of a line or the center of a circle. This can be useful for selecting individual objects within a group
+                            </li>
+                            <li>
+                                Layers: Organizing your drawing into layers can make it easier to work with overlapping objects. You can assign different objects to different layers, and then turn on or off the display of individual layers as needed.
+                            </li>
+                            <li>
+                                Editing tools: AutoCAD provides a range of editing tools that can help you modify individual objects, even if they are overlapping. For example, you can use the "Trim" command to trim one object to another, or the "Extend" command to extend one object to another
+                            </li>
+                            <li>
+                                Transparency: Setting the transparency of objects can help make them easier to see and select when they are overlapping. You can use the "Properties" palette to adjust the transparency of individual objects or layers
+                            </li>
+                        </ul>
+                        By using these techniques, you can better manage overlapping objects in AutoCAD and make it easier to work with your drawing.
+                    </p>
+                </article>
+            </div>
+
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <article class="border p-3 text-center">
+                    <h2>
+                        Geometry
+                    </h2>
+                    <p>
+                        Geometry in AutoCAD refers to the basic shapes and lines that you use to create your drawings. Here are some of the most common types of geometry that you can create in AutoCAD:
+                        <ul>
+                            <li>
+                                Lines: Lines are the most basic type of geometry in AutoCAD. You can create lines by selecting the "Line" tool and specifying two points.
+                            </li>
+                            <li>
+                                Circles: Circles are a common type of geometry used in AutoCAD for creating rounded shapes. You can create circles by selecting the "Circle" tool and specifying the center point and radius
+                            </li>
+                            <li>
+                                Arcs: Arcs are a type of geometry that can be used to create curved shapes, such as arches or rounded corners. You can create arcs by selecting the "Arc" tool and specifying the center point, start point, and end point.
+                            </li>
+                            <li>
+                                Polylines: Polylines are a type of geometry that can be used to create complex shapes with multiple segments. You can create polylines by selecting the "Polyline" tool and specifying each segment point.
+                            </li>
+                            <li>
+                                Ellipses: Ellipses are similar to circles, but have two different radii. You can create ellipses by selecting the "Ellipse" tool and specifying the center point, major radius, and minor radius
+                            </li>
+                            <li>
+                                Splines: Splines are a type of geometry that can be used to create smooth curves. You can create splines by selecting the "Spline" tool and specifying a series of control points
+                            </li>
+                        </ul>
+                        By using these basic types of geometry, you can create a wide range of shapes and objects in AutoCAD. You can also modify and combine these shapes to create more complex forms, such as extruded solids or 3D models.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </main>
+{% endblock %}

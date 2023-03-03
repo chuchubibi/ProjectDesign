@@ -1,0 +1,342 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<style>
+    article {
+        margin-bottom: 30px;
+    }
+</style>
+
+    <main class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <article class="border p-3 text-center">
+                    <h1>CHAPTER 6</h1>
+                    <h2>
+                        Modifying
+                    </h2>
+                    <p>
+                        Modifying in AutoCAD refers to the process of changing or adjusting objects in a drawing. AutoCAD provides a variety of tools for modifying objects, including moving, rotating, scaling, stretching, trimming, and extending. Here are some key things to know about modifying objects in AutoCAD:
+                        <ul>
+                            <li>
+                                Selecting objects: To modify an object in AutoCAD, you must first select it. You can select objects using a variety of methods, including clicking on them with the mouse, using selection windows or crossing windows, and using selection filters.
+                            </li>
+                            <li>
+                                Moving objects: To move an object in AutoCAD, you can use the MOVE command or the grip editing tools. The MOVE command allows you to specify a distance and direction for the object to be moved, while the grip editing tools allow you to drag the object to a new location
+                            </li>
+                            <li>
+                                Rotating objects: To rotate an object in AutoCAD, you can use the ROTATE command or the grip editing tools. The ROTATE command allows you to specify an angle of rotation for the object, while the grip editing tools allow you to drag the object to a new orientation
+                            </li>
+                            <li>
+                                Scaling objects: To scale an object in AutoCAD, you can use the SCALE command or the grip editing tools. The SCALE command allows you to specify a scale factor for the object, while the grip editing tools allow you to drag the object to a new size.
+                            </li>
+                            <li>
+                                Trimming and extending objects: To trim or extend objects in AutoCAD, you can use the TRIM and EXTEND commands. The TRIM command allows you to remove portions of objects that intersect with other objects, while the EXTEND command allows you to extend objects to meet other objects.
+                            </li>
+                        </ul>
+                        Modifying objects is an essential part of working with AutoCAD. By understanding how to use the various modification tools, you can make precise adjustments to your drawings and ensure that they accurately represent your design
+                    </p>
+                </article>
+            </div>
+
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <article class="border p-3 text-center">
+                    <h2>
+                        Move and copy 
+                    </h2>
+                    <p>
+                        The Move and Copy commands in AutoCAD are used to relocate objects within a drawing or to create duplicates of objects Here are some key things to know about using Move and Copy in AutoCAD:
+                        <ul>
+                            <li>
+                                Selecting objects: To use the Move or Copy command, you must first select the objects that you want to move or copy. You can select objects by clicking on them with the mouse, using selection windows or crossing windows, or using selection filters
+                            </li>
+                            <li>
+                                Activating the command: Once you have selected the objects, you can activate the Move or Copy command by typing "MOVE" or "COPY" in the command line, or by clicking on the corresponding command button in the Modify panel of the Home tab
+                            </li>
+                            <li>
+                                Specifying the base point: After activating the command, you will be prompted to specify a base point. This is the point from which the objects will be moved or copied. You can specify the base point by clicking on a point in the drawing, or by typing in the X, Y, and Z coordinates of the point.
+                            </li>
+                            <li>
+                                Specifying the second point: After specifying the base point, you will be prompted to specify a second point. This is the point to which the objects will be moved or copied. You can specify the second point by clicking on a point in the drawing, or by typing in the X, Y, and Z coordinates of the point
+                            </li>
+                            <li>
+                                Creating copies: To create copies of the selected objects, you can activate the Copy command and specify the base point and second point as described above. The copied objects will be placed at the second point, leaving the original objects in their original location
+                            </li>
+                            <li>
+                                Using shortcuts: To save time when using Move and Copy in AutoCAD, you can use shortcuts such as Ctrl+Drag to copy objects, or Shift+Drag to move objects in a straight line.
+                            </li>
+                        </ul>
+                        Move and Copy are essential commands in AutoCAD, allowing you to easily relocate and duplicate objects within your drawings. By understanding how to use these commands effectively, you can work more efficiently and produce accurate and detailed designs.
+                    </p>
+                </article>
+            </div>
+
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <article class="border p-3 text-center">
+                    <h2>
+                        Create multiple copies
+                    </h2>
+                    <p>
+                        To create multiple copies of an object in AutoCAD, you can use the array command. Here's how:
+                        <ul>
+                            <li>
+                                Select the object that you want to copy.
+                            </li>
+                            <li>
+                                Type "ARRAY" in the command line or select the Array command from the Modify panel of the Home tab.
+                            </li>
+                            <li>
+                                In the Array dialog box, select the type of array that you want to create. There are several options to choose from, including Rectangular, Polar, and Path.
+                            </li>
+                            <li>
+                                Specify the number of rows and columns for the array, or specify the angle and number of items for a Polar array.
+                            </li>
+                            <li>
+                                Specify the spacing between the objects in the array
+                            </li>
+                            <li>
+                                Click OK to create the array.
+                            </li>
+                            <li>
+                                Click OK to create the array. Once you've created the array, you can modify it as needed using the grip editing tools or by selecting the array and using the Move or Copy commands.
+                            </li>
+                        </ul>
+                    </p>
+                </article>
+            </div>
+
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <article class="border p-3 text-center">
+                    <h2>
+                        Offset
+                    </h2>
+                    <p>
+                        The Offset command in AutoCAD allows you to create parallel copies of lines, curves, and other objects. Here's how to use it:
+                        <ul>
+                            <li>
+                                Type "OFFSET" in the command line, or select the Offset command from the Home tab on the ribbon.
+                            </li>
+                            <li>
+                                Select the object that you want to offset by clicking on it.
+                            </li>
+                            <li>
+                                Specify the distance that you want to offset the object by typing a value in the command line or by clicking a point in the drawing to specify the offset distance
+                            </li>
+                            <li>
+                                Select the side of the object that you want to offset by clicking on it. You can also use the "Through" option to create an offset that passes through the selected object
+                            </li>
+                            <li>
+                                Press Enter to complete the Offset command. Press Enter to complete the Offset command.
+                                Once you've created the offset, you can modify it as needed using the grip editing tools or by selecting the offset and using the Move or Copy commands.
+                                Note that the Offset command only works with closed objects, such as circles, polygons, and closed polylines. To offset an open object such as a line or an arc, you need to first convert it to a polyline using the Pedit command.                                
+                            </li>
+                        </ul>
+                        The Offset command is a useful tool for creating parallel lines and curves in AutoCAD, and can save you time and effort when working with complex designs
+                    </p>
+                </article>
+            </div>
+
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <article class="border p-3 text-center">
+                    <h2>
+                        Trim and extend
+                    </h2>
+                    <p>
+                        The Trim and Extend commands in AutoCAD allow you to modify existing lines, arcs, and other objects by trimming or extending them to intersect with other objects. Here's how to use these commands:
+                        <ul>
+                            <li>
+                                Type "TRIM" in the command line or select the Trim command from the Modify panel of the Home tab.
+                            </li>
+                            <li>
+                                Select the objects that you want to trim by clicking on them
+                            </li>
+                            <li>
+                                Specify the boundary that you want to use for trimming by selecting it in the drawing.
+                            </li>
+                            <li>
+                                Press Enter to complete the Trim command.
+                            </li>
+                            <li>
+                                The selected objects will be trimmed to the boundary that you specified
+                            </li>
+                            <li>
+                                Extend command:
+                            </li>
+                            <li>
+                                Type "EXTEND" in the command line or select the Extend command from the Modify panel of the Home tab.
+                            </li>
+                            <li>
+                                Select the object that you want to extend by clicking on it.
+                            </li>
+                            <li>
+                                Specify the boundary that you want to use for extending by selecting it in the drawing.
+                            </li>
+                            <li>
+                                Press Enter to complete the Extend command. The selected object will be extended to the boundary that you specified
+                            </li>
+                        </ul>
+                        Note that the Trim and Extend commands can be used with a variety of objects, including lines, arcs, circles, and polylines. You can also use the Trim and Extend commands together to trim or extend multiple objects at once. Overall, the Trim and Extend commands are useful tools for modifying existing objects in AutoCAD and can help you to quickly make changes to your designs
+                    </p>
+                </article>
+            </div>
+
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <article class="border p-3 text-center">
+                    <h2>
+                        Mirror
+                    </h2>
+                    <p>
+                        The Mirror command in AutoCAD allows you to create a mirrored copy of an object or group of objects. Here's how to use it:
+                        <ul>
+                            <li>
+                                Type "MIRROR" in the command line or select the Mirror command from the Modify panel of the Home tab
+                            </li>
+                            <li>
+                                Select the object that you want to mirror by clicking on it.
+                            </li>
+                            <li>
+                                Specify the first point of the mirror line by clicking a point in the drawing
+                            </li>
+                            <li>
+                                Specify the second point of the mirror line by clicking another point in the drawing. The mirror line will be drawn between the two points that you specified.
+                            </li>
+                            <li>
+                                Press Enter to complete the Mirror command.
+                            </li>
+                        </ul>
+                        The selected object will be mirrored across the mirror line that you specified. Note that the original object will remain in place, and a new mirrored copy will be created. You can also use the Mirror command to mirror multiple objects at once by selecting them before you start the command. The Mirror command is a useful tool for creating symmetrical designs in AutoCAD and can save you time and effort when working with complex drawings.
+                    </p>
+                </article>
+            </div>
+
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <article class="border p-3 text-center">
+                    <h2>
+                        Stretch
+                    </h2>
+                    <p>
+                        The Stretch command in AutoCAD allows you to modify the shape and size of an object by stretching it. Here's how to use it:
+                        <ul>
+                            <li>
+                                Type "STRETCH" in the command line or select the Stretch command from the Modify panel of the Home tab.
+                            </li>
+                            <li>
+                                Select the objects that you want to stretch by clicking on them.
+                            </li>
+                            <li>
+                                Specify a base point for the stretch by clicking a point in the drawing. This point will remain fixed while the rest of the object is stretched.
+                            </li>
+                            <li>
+                                Specify a second point to define the stretching direction and distance. You can either type in a distance value in the command line or select a point in the drawing
+                            </li>
+                            <li>
+                                Press Enter to complete the Stretch command.
+                            </li>
+                        </ul>
+                        The selected objects will be stretched from the base point that you specified to the second point that you defined. Note that the Stretch command works best with simple objects, such as lines, arcs, and polylines. It may not work as expected with more complex objects such as 3D models or block references. The Stretch command is a useful tool for making minor modifications to objects in AutoCAD, such as adjusting the size or position of a line or polyline. It can also be used in conjunction with other editing tools such as Move and Copy to create more complex modifications
+                    </p>
+                </article>
+            </div>
+
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <article class="border p-3 text-center">
+                    <h2>
+                        Explode
+                    </h2>
+                    <p>
+                        The Explode command in AutoCAD allows you to break apart complex objects such as blocks, polylines, or dimensions into their component parts, making them easier to modify. Here's how to use it:
+                        <ul>
+                            <li>
+                                Select the object that you want to explode by clicking on it.
+                            </li>
+                            <li>
+                                Type "EXPLODE" in the command line or select the Explode command from the Modify panel of the Home tab.
+                            </li>
+                            <li>
+                                Press Enter to confirm the selection.
+                            </li>
+                        </ul>
+                        The selected object will be exploded into its individual components, which can now be modified separately. Note that the Explode command may not work as expected with all types of objects, especially if they contain nested or overlapping components. Additionally, once an object has been exploded, it can be difficult to reassemble it into its original form, so it's a good idea to make a backup copy of the original object before using the Explode command. The Explode command is a useful tool for working with complex objects in AutoCAD and can help you to quickly break them down into manageable parts for editing and modification.
+                    </p>
+                </article>
+            </div>
+
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <article class="border p-3 text-center">
+                    <h2>
+                        Grips
+                    </h2>
+                    <p>
+                        Grips in AutoCAD are small, square or triangular markers that appear on the corners and edges of selected objects. Grips can be used to modify the shape, size, and position of objects without having to use the Modify commands. Here's how to use grips:
+                        <ul>
+                            <li>
+                                Select the object that you want to modify by clicking on it.
+                            </li>
+                            <li>
+                                Hover the cursor over one of the grips until it highlights.
+                            </li>
+                            <li>
+                                Click and drag the grip to change the shape, size, or position of the object. You can also use the keyboard to enter precise values for the modification.
+                            </li>
+                            <li>
+                                Repeat the process for other grips until the object is modified to your liking.
+                            </li>
+                        </ul>
+                        Grips can also be used to perform specific actions on objects, such as adding or removing vertices on a polyline or changing the alignment of text. To customize the appearance and behavior of grips, you can use the Grip Settings command. This allows you to change the color, size, and style of grips, as well as control the types of modifications that are available. Grips are a useful tool for making quick and precise modifications to objects in AutoCAD, especially when working with simple shapes such as lines, arcs, and polylines. They can save you time and effort by allowing you to make modifications directly on the object, rather than having to use separate commands
+                    </p>
+                </article>
+            </div>
+
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <article class="border p-3 text-center">
+                    <h2>
+                        Set default object snap
+                    </h2>
+                    <p>
+                        Setting a default object snap in AutoCAD can save you time and effort when working with objects. Here's how to set a default object snap:
+                        <ul>
+                            <li>
+                                Type "OSNAP" in the command line or click on the Object Snap button in the status bar
+                            </li>
+                            <li>
+                                In the Object Snap Settings dialog box, select the object snap that you want to use as the default from the list on the left.
+                            </li>
+                            <li>
+                                Click on the "Set Current" button to make the selected object snap the default
+                            </li>
+                            <li>
+                                Click OK to close the dialog box and save the changes. Now, whenever you activate object snap during a command or select a point on an object, the default object snap that you set will be automatically selected.
+                            </li>
+                        </ul>
+                        You can also set additional object snaps as overrides for specific situations. To do this, hold down the Shift key and right-click to bring up a context menu, then select the desired object snap from the list. Setting a default object snap in AutoCAD can help you work more efficiently and accurately by reducing the time and effort required to select the appropriate snap point for each command or object. It's a good idea to experiment with different object snaps to find the ones that work best for your specific needs
+                    </p>
+                </article>
+            </div>
+
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <article class="border p-3 text-center">
+                    <h2>
+                        Object snap tracking
+                    </h2>
+                    <p>
+                        Setting a default object snap in AutoCAD can save you time and effort when working with objects. Here's how to set a default object snap:
+                        <ul>
+                            <li>
+                                Type "OSNAP" in the command line or click on the Object Snap button in the status bar.
+                            </li>
+                            <li>
+                                In the Object Snap Settings dialog box, select the object snap that you want to use as the default from the list on the left
+                            </li>
+                            <li>
+                                Click on the "Set Current" button to make the selected object snap the default.
+                            </li>
+                            <li>
+                                Click OK to close the dialog box and save the changes. Now, whenever you activate object snap during a command or select a point on an object, the default object snap that you set will be automatically selected.
+                            </li>
+                        </ul>
+                    </p>
+                </article>
+            </div>
+        </div>
+    </main>
+{% endblock %}

@@ -1,0 +1,165 @@
+{% extends 'base.html' %}
+
+
+{% block title %}PROJECT DESIGN{% endblock %}
+
+{% block content %}
+<div class="container text-center">
+    <h1>AUTOCAD</h1>
+</div>
+<div class="container">
+    <div class="row">
+      <div class="col-md-3 my-5">
+        <div class="card card-glass">
+          <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxVKJ6p-KYuOvOZn9oLj6fnBnlwCrWbmZZYgA1KuBM7JFpLPutit3D8hcS3sQudvabvKs&usqp=CAU" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">AutoCAD Basic</h4>
+            <p class="card-text">The Command Window</p>
+            <p class="card-text">The Mouse</p>
+            <p class="card-text">New Drawings</p>
+            <p class="card-text">Create Drawing Template File</p>
+            <p class="card-text">Units</p>
+            <p class="card-text">Model Scale</p>
+            <a href="{% url 'chapter1' %}" class="btn btn-primary">Start Learning</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 my-5">
+        <div class="card card-glass">
+          <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkyIts4Q2_CC55xE_y8rJ04UKUYpoAhPWOaqKEWFF9wIe1I5zfZulKcpoNJVb6I_e8CDA&usqp=CAU" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">Viewing</h4>
+            <p class="card-text">Overlapping Objects</p>
+            <p class="card-text">Geometry</p>
+            <p class="card-text">.</p>
+            <p class="card-text">.</p>
+            <p class="card-text">.</p>
+            <p class="card-text">.</p>
+            <a href="{% url 'chapter2' %}" class="btn btn-primary">Start Learning</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 my-5">
+        <div class="card card-glass">
+          <img class="card-img-top" src="https://media.istockphoto.com/id/1215795401/vector/chapter-3-design-template-can-be-used-for-books-design-or-tabs-stock-vector-illustration.jpg?s=612x612&w=0&k=20&c=ahoHs5SR7nVCq85K1k01XwCDDJXmzEhVAZiu9Hr9S28=" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">Precision</h4>
+            <p class="card-text">Locking Angles</p>
+            <p class="card-text">Set Default Object Snaps</p>
+            <p class="card-text">Object Snap Tracking</p>
+            <p class="card-text">Handy Function Key Reference</p>
+            <p class="card-text">.</p>
+            <p class="card-text">.</p>
+            <a href="{% url 'chapter3' %}" class="btn btn-primary">Start Learning</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 my-5">
+        <div class="card card-glass">
+          <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSowR5AkhwJ7qqsbg-0F6V9CTPWSelQvXORT_NunZK7aQ0vPlnMvRP4KA7R8UIUYemx_vM&usqp=CAU" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">Layers</h4>
+            <p class="card-text">Layers </p>
+            <p class="card-text">Layer Controls</p>
+            <p class="card-text">Layer Settings</p>
+            <p class="card-text">Controls in the Layer Properties</p>
+            <p class="card-text">Maintain Your Standards</p>
+            <p class="card-text">.</p>
+            <a href="{% url 'chapter4' %}" class="btn btn-primary">Start Learning</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 my-5">
+        <div class="card card-glass">
+          <img class="card-img-top" src="data:image/png;base64,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" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">Properties</h4>
+            <p class="card-text">Properties Palette</p>
+            <p class="card-text">Verify and Change Object</p>
+            <p class="card-text">Access to Property Settings</p>
+            <p class="card-text">Line types</p>
+            <p class="card-text">Line weights</p>
+            <p class="card-text">.</p>
+            <a href="{% url 'chapter5' %}" class="btn btn-primary">Start Learning</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 my-5">
+        <div class="card card-glass">
+          <img class="card-img-top" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMREhUSExISFhMVEhUVFRcVEhIXFRUXFRYWFhUVFhUYHiggHRomGxUVITEhJSktLi4uFyA2ODMtNygtLisBCgoKDg0OGxAQGy0lHyIxLzgwNS8tNysyLzYvLjctLTAtMi0tLSstNS03LSstLS8vKzctLSstLS03LSstKzUrLf/AABEIAOEA4QMBIgACEQEDEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAAAQIDBgcFBP/EAEoQAAIBAwEDBAkQBwkAAAAAAAABAgMEERIFITEGBxNhFCI1QXGBkZLTFRcyNFFTVFVyc5SVsbKz0iMlM1KDocEkQkRkdIKEo8L/xAAaAQEAAwEBAQAAAAAAAAAAAAAAAQIFBAMG/8QAKhEBAAEDAgQEBwEAAAAAAAAAAAECERIDBCExUXEyM2HBBRU0QYGx0RT/2gAMAwEAAhEDEQA/AO4gAARGWSkpFoAWAAAAAACrYFgUx1ssmBIAAAAAAABEZZWSkpF48AJAAAAAACrYFgURZMCQAAMcpF5IrGICMS4AAAAAAAKL+pchoCpZIJEgAAAAAAxylktNZREY98CYxLAAAAAAAApEuQ0BUskEiQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFZMCwKY8JaLAkAAAAAAAAiLyUlItBAWAAAAAACrYFgUS8JZMCQAAAAAAMA2RF53lHLJeKAkAACqLENAVLJBIkAAAAAAGOUsl5LJEYgIxLAAAAANJlVv7m9vKNC9jQp28qCina06uelpKb3tp8U/d49RuxqnJrultT5dp+ATCs/ZHqLtT41p/V9L85ensjaeVnadNpYyuwKe/dvede7ebSYL64jShKpN4jCLk31L7fAJqtxlMUXm0PCWy9oZz6oQxjcuw6fjbeowPYu1PjWn9X0/wA54F7y9ruT6KFOEO9qTlLxvOPFg+zYnLubmo3EYaW8a4JrTnvyTbyutYwckb7Smq3s0qvg+5ijK34vxel6i7U+Naf1fS/OPUXanxrT+r6X5zbAdd2ZjDVOSd5ddl3ltc141+gjbOMlRhS/aqpKXaxz7kVx7xtZqmwe6u0vm7H7lU2sTzKeQ2Y5PJaayIxIWIxLAAAAAAAAAAADzuUG2YWVCVxUjOUIOKagouT1SUVhSaXGS74Hog5++dyy49Fd+ZR9KR67tl7zd+ZQ9KWxlXKHQQc+9dyy95u/Mo+lHru2XvN35lH0oxkyh0EHPfXeseHRXXmUPSh879j71deZQ9KMZM46uhA57679j71deZQ9KSud6x96uurtKG//ALRjJnT1dBNV5Nr9ZbU+XafgHk+u3Ze83fmUfSmbm92rC7u9oXFNTUKkrXCmkpLTSlB5SbXGL74tMQXiZizejWucKbVm1+9Ugn4M6vtSNlNY5xPan8WH9Tn3HlVdnbsfqaO8PF5trKE5VqkoqTjojHKTxq1NtZ7+5E8q+StapcOdvRWiUIt4lTite9S3NrvaTwdibYrUIVKdBPpKji8qOqSjFPOmOHv3reZ7DlZdUamZ1JTin28Jpb/dSeMpmZTqaM6UUVRPeH0Gpt91G5r1tOY9ImZ6R0dO2ZGao01UWJqnBTWU8SUVq3rryfSUo1VOKknlSSa8DWUXNiOT5aqbzMy1TYPdXaXzdj9yqbWapsFfrXaXzdj9yqbWWl508gAELAAAAAAAAAAAGo863cyt8qj+NTNuNR51+5lb5VH8amTTzRVylybZ11OhZzr0ZaK0rqNHXH2apqlKbjCXGOZNN43vSjPcXkK1C5q5TqOxtunenTmsr6lFy4JZcFTba3Nt9/J8Cf6ufVfxz1areWnPh0vyHp7PjK1t61WlOSq1Nn0KreI9r0l9CG5NcHCKf+49ng8rK9Tk93t+W/8A48T1uUtNdiU6SilOylRpzx/mqCqzz4KsJrxk0atW/t7enWm569pqllqKxCVKGrglwTkyW6Vfs+ULqFSVxTqV4wVK4jLNKorhYc4JboKosdYGSW1q0K1hQU80Z21jGdKUYypzVRRjNOLXfTMeytq16TvaMK1RU6FvX6FZzo0XFKMZLrw35WYtrbZnQ7F6OFBTVhauNV0YSqxbp8YzlnDXeeNx5vJ32N5/oKn41uLF33x27cQsnWVecatS/kpzytUlG3pYTfVhFLHbdxG3uq6rT6WVezi557Zx6O73N+52sfIhY7Tq22z1KlUlTcr6aelpZXQU2smPZu1KsLa7rKUXUnc2mqU6dKpnMbxt4qRazlccZFi7Hyhn0sLWtLHTVaEnUaUY69FarThOSSXbOMUs9/Sb1zHcLvw0fsqmicparqxtrmX7StQlrxujmlVqUk4x4RTjGParCytyWTfOY97rvw0fsqkVeFanxOomsc4ntT+LD+ps5rfOBScrOTX92cJPwZ0/+jj3HlVdmjsZtuaO8PI5sIL9PLG/9Gs9XbvB5HOBBK8lhYzTg31ves+RI+zm+2rSourCrOMNehxcniL06k1ngnvR5fLO/hXupTpvVBRjHUuD05y11b8eIza6qf8ALTF+N/639LTr+Y11Wm1vaHSeTvtW3+YpfcR6J8WxKLhb0YS4xo00/CoJM+01dPhTD5nVm+pVMdZapsHurtL5ux+5VNrNU2D3V2l83Y/cqm1npLxp5AAIWAAAAAAAACsZZKylktBAWPG5X7Ed9aztozUHNwepxcktE4z4Jr93B7IBLl2z+bG6t3J0r+EdSSkux9UZJPK1QlJxeHwytwr82N1UdSU9oRk6qiqjdFvUoyjKK9luScI4SxjSjqILZyphDl1vzYXVNJQv4RSm5rFB7pyh0cpey4uLwYbXmnr0pKcL2EZJSSaoPhKLjJb59+La8Z1cq2M5MIcqr809eenVewemEacc0HuhBYjH2fBIm35p69PVpvYLXBwl+gfbRbjJxfbcMxi/EdT0+ItFjOTCHNLDm5vKEXCltCEYuWtrsaMlqwlntm9+El4jFdc2F1V167+D6SUJT/s6Sk6alGDxGS4Kclu906iBnKcIcoqc09eUYQd7Bxp6lBdA+1UpapJdv322/GevzY7IdnXv7ZzU3TlbZko6U9VOc+GX+9jxHQDUq/J+9hdXFxbXVCmrh0nKNShKbXRU1Bb1Ndb8ZOV+EoxiOMNtMdejGcXCSTjJNST4NPc0a16n7W+G2n0SXpCHYbW+G2n0SXpCtoWiqY4vLv8Am/lqbo1o6e8qieV1alx8h9Ww+QyhKNStNT0vKhFYjlcNTfFdW4+xWW1Mb7y1zv8A8LLHVu1+ES2ftXO69tEvc7Ek/wCes5o2ejFV7O+r4ruqqMZq/V20A1b1P2t8NtPokvSD1P2t8NtPokvSHTZn39Fdg91dpfN2P3KptZrnJrYVehXuLi4rU6tS4jRX6Om6aXQqaW5yfFSXkNjElPIAKN58H2kLLgpgsmBIAAGOUsl2iIxARiWAAAAAAABVFiGgIJSCRIAAAAABDZjk8mSSyRGPlARiWAAAAAAABSP8y5DQFSyQSJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVbAsCmktFgSAAAAAAENgSysHkrJ5LxQEgAAAAABR7/B9oFwU0+UtFgSAAAAAAFZSwAnLykoxpZMoAAACpYhoCpZIJEgAAAAABsxuWS7REY4ARiWAAAAAAABRFyGgK4LJBIkAAAAAArKWCi3mSUchIAkSAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH/9k=" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">Modifying</h4>
+            <p class="card-text">Select Multiple Objects</p>
+            <p class="card-text">Move and Copy</p>
+            <p class="card-text">Create Multiple Copies</p>
+            <p class="card-text">Trim and Extend</p>
+            <p class="card-text">Mirror</p>
+            <p class="card-text">Object Snap Tracking</p>
+            <a href="{% url 'chapter6' %}" class="btn btn-primary">Start Learning</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 my-5">
+        <div class="card card-glass">
+          <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXCx1Qg4s9MDmZgjuCJtt_7qWbFLdZJSz2DC8IDqvTgeT3eBk9ltdjxEwRHdoBAZxtMPM&usqp=CAU" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">Blocks and Layouts</h4>
+            <p class="card-text">Insert a Block </p>
+            <p class="card-text">Create a Block Definition</p>
+            <p class="card-text">Layouts</p>
+            <p class="card-text">4 Methods for Scaling</p>
+            <p class="card-text">Layout Viewports</p>
+            <p class="card-text">Scaling Views and Trans-Spatial </p>
+            <a href="{% url 'chapter7' %}" class="btn btn-primary">Start Learning</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 my-5">
+        <div class="card card-glass">
+          <img class="card-img-top" src="https://us.123rf.com/450wm/kyryloff/kyryloff2003/kyryloff200300427/143452699-chapter-8-design-template-can-be-used-for-books-design-or-tabs-stock-vector-illustration-isolated.jpg?ver=6" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">Notes and Labels</h4>
+            <p class="card-text">Create a Text Style</p>
+            <p class="card-text">Multileaders</p>
+            <p class="card-text">Create a Multileader Style</p>
+            <p class="card-text">.</p>
+            <p class="card-text">.</p>
+            <p class="card-text">.</p>
+            <a href="{% url 'chapter8' %}" class="btn btn-primary">Start Learning</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 my-5">
+        <div class="card card-glass">
+          <img class="card-img-top" src="https://us.123rf.com/450wm/kyryloff/kyryloff2003/kyryloff200300423/143452681-chapter-9-design-template-can-be-used-for-books-design-or-tabs-stock-vector-illustration-isolated.jpg?ver=6" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">Dimensions</h4>
+            <p class="card-text">Linear Dimensions </p>
+            <p class="card-text">Modify Dimensions</p>
+            <p class="card-text">Dimension Styles</p>
+            <p class="card-text">.</p>
+            <p class="card-text">.</p>
+            <p class="card-text">.</p>
+            <a href="{% url 'chapter9' %}" class="btn btn-primary">Start Learning</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 my-5">
+        <div class="card card-glass">
+          <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxjs1XDxPqoVchBnpGlfdMF0BjZk15CWGTTpwQNl9-6NYEMn3NJ0xv6ZepSm_XWhWM6EY&usqp=CAU" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">Printing</h4>
+            <p class="card-text">Create a Page Setup</p>
+            <p class="card-text">Output to a PDF File</p>
+            <p class="card-text">.</p>
+            <p class="card-text">.</p>
+            <p class="card-text">.</p>
+            <p class="card-text">.</p>
+            <a href="{% url 'chapter10' %}" class="btn btn-primary">Start Learning</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+{% endblock %}

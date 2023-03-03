@@ -1,0 +1,154 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<style>
+    article {
+        margin-bottom: 30px;
+    }
+</style>
+
+    <main class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <article class="border p-3 text-center">
+                    <h1>CHAPTER 9</h1>
+                    <h2>
+                        Dimension
+                    </h2>
+                    <p>
+                        Dimensions in AutoCAD are used to annotate and measure the size of objects and geometry in a drawing. Here are the basic steps to create dimensions in AutoCAD
+                        <ul>
+                            <li>
+                                Type "DIM" in the command line or click on the "Dimension" button in the "Annotation" panel of the "Home" tab of the ribbon
+                            </li>
+                            <li>
+                                Select the type of dimension you want to create, such as linear, aligned, angular, radius, or diameter
+                            </li>
+                            <li>
+                                Select the objects or geometry you want to dimension
+                            </li>
+                            <li>
+                                Place the dimension line and text by clicking where you want to place them
+                            </li>
+                            <li>
+                                In the "Dimension Style Manager" dialog box, you can modify the appearance and settings of the dimension style, such as text height, arrowhead size, and extension lines.
+                            </li>
+                            <li>
+                                To modify an existing dimension, select it and use the grip points to adjust the position, length, or angle of the dimension line or text
+                            </li>
+                            <li>
+                                You can also use the "DIMSCALE" command to adjust the overall scale of the dimensions in your drawing, and the "DIMSTY" command to change the current dimension style.
+                            </li>
+                        </ul>
+                        Dimensioning in AutoCAD requires some practice and attention to detail to ensure accuracy and readability of the dimensions. There are also many advanced features and settings for dimensions in AutoCAD, such as tolerances, leaders, and multileaders, that can be explored for more complex drawings
+                    </p>
+                </article>
+            </div>
+
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <article class="border p-3 text-center">
+                    <h2>
+                        Linear dimension
+                    </h2>
+                    <p>
+                        A linear dimension is used to measure the distance between two points in AutoCAD. Here are the basic steps to create a linear dimension in AutoCAD:
+                        <ul>
+                            <li>
+                                Type "DIMLINEAR" in the command line or click on the "Linear" button in the "Dimension" panel of the "Annotate" tab of the ribbon.
+                            </li>
+                            <li>
+                                Select the first point of the dimension line by clicking on it.
+                            </li>
+                            <li>
+                                Select the second point of the dimension line by clicking on it.
+                            </li>
+                            <li>
+                                Place the dimension line and text by clicking where you want to place them.
+                            </li>
+                            <li>
+                                In the "Dimension Style Manager" dialog box, you can modify the appearance and settings of the dimension style, such as text height, arrowhead size, and extension lines.
+                            </li>
+                            <li>
+                                To modify an existing dimension, select it and use the grip points to adjust the position, length, or angle of the dimension line or text.
+                            </li>
+                            <li>
+                                You can also use the "DIMSCALE" command to adjust the overall scale of the dimensions in your drawing, and the "DIMSTY" command to change the current dimension style.
+                            </li>
+                        </ul>
+                        Linear dimensions are essential for accurately measuring distances and sizes in AutoCAD drawings. The dimension text should be clearly legible and placed in a way that does not obscure the drawing or other dimensions
+                    </p>
+                </article>
+            </div>
+
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <article class="border p-3 text-center">
+                    <h2>
+                        Modify dimension
+                    </h2>
+                    <p>
+                        In AutoCAD, dimensions can be modified using grip editing or by using the Dimension Text Editor. Here are the steps to modify dimensions in AutoCAD
+                        <ul>
+                            <li>
+                                To modify a dimension using grip editing, select the dimension by clicking on it. Grips will appear at the ends of the dimension line and at the center of the text. You can use these grips to adjust the dimension line, the extension lines, and the text.
+                            </li>
+                            <li>
+                                To adjust the position of the dimension text, click and drag the center grip. The text will move with the grip, and the dimension line will adjust accordingly.
+                            </li>
+                            <li>
+                                To adjust the overall length of the dimension line, click and drag one of the end grips. The extension lines will adjust automatically to maintain their connection to the object being dimensioned
+                            </li>
+                            <li>
+                                To adjust the spacing between the dimension line and the object being dimensioned, click and drag one of the extension line grips
+                            </li>
+                            <li>
+                                To modify the dimension text, double-click on the dimension to open the Dimension Text Editor. Here, you can change the text, text style, and text height, among other settings.
+                            </li>
+                            <li>
+                                After making any changes, click "OK" to apply them to the dimension
+                            </li>
+                            <li>
+                                You can also use the "DIMSTYLE" command to modify the appearance and settings of the current dimension style
+                            </li>
+                        </ul>
+                        Modifying dimensions in AutoCAD is an important part of creating accurate and clear drawings. By using grip editing and the Dimension Text Editor, you can adjust the position and appearance of dimensions to fit your needs.
+                    </p>
+                </article>
+            </div>
+
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <article class="border p-3 text-center">
+                    <h2>
+                        Dimension style
+                    </h2>
+                    <p>
+                        In AutoCAD, dimension styles define the appearance and behavior of dimensions in a drawing. By creating and using dimension styles, you can ensure that all dimensions in your drawing have a consistent appearance and are created with the same settings.
+                        <ul>
+                            <li>
+                                To create a new dimension style in AutoCAD, follow these steps
+                            </li>
+                            <li>
+                                Type "DIMSTYLE" into the command line and press Enter. The Dimension Style Manager dialog box will appear.
+                            </li>
+                            <li>
+                                Click the "New" button to create a new dimension style
+                            </li>
+                            <li>
+                                In the "New Dimension Style" dialog box, enter a name for the new dimension style.
+                            </li>
+                            <li>
+                                Use the tabs in the dialog box to customize the various settings for the new dimension style. These settings include the appearance of the dimension lines, the text style and height, the units of measurement, and other options.
+                            </li>
+                            <li>
+                                Once you have customized the settings for the new dimension style, click "OK" to save the changes and close the dialog box
+                            </li>
+                            <li>
+                                To apply the new dimension style to a dimension in your drawing, select the dimension and then select the new dimension style from the "Dimension Style" drop-down list in the Properties palette
+                            </li>
+                        </ul>
+                        You can create multiple dimension styles in AutoCAD to suit different needs or to conform to different drafting standards. By using dimension styles, you can ensure that all dimensions in your drawing are created accurately and consistently, saving time and reducing errors
+                    </p>
+                </article>
+            </div>
+        </div>
+    </main>
+{% endblock %}

@@ -1,0 +1,181 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<style>
+    article {
+        margin-bottom: 30px;
+    }
+</style>
+
+    <main class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <article class="border p-3 text-center">
+                    <h1>CHAPTER 3</h1>
+                    <h2>
+                        Precision
+                    </h2>
+                    <p>
+                        Precision in AutoCAD refers to the level of accuracy and detail in your drawing. AutoCAD provides several tools and settings that allow you to control the precision of your drawings, including
+                        <ul>
+                            <li>
+                                Units: AutoCAD allows you to set the units of measurement for your drawing, such as inches, millimeters, or feet. Choosing the appropriate units for your drawing can help ensure that your dimensions and measurements are accurate.
+                            </li>
+                            <li>
+                                Snap and Grid: The Snap and Grid settings allow you to control the spacing and alignment of objects in your drawing. This can help you create precise layouts and alignments for your objects
+                            </li>
+                            <li>
+                                Object Snap: The Object Snap settings allow you to snap to specific points on objects, such as the endpoint of a line or the center of a circle. This can help you create accurate relationships between objects in your drawing
+                            </li>
+                            <li>
+                                Polar Tracking: The Polar Tracking settings allow you to align objects to specific angles or increments. This can be useful for creating symmetrical objects or aligning objects with other elements in your drawing
+                            </li>
+                            <li>
+                                Dynamic Input: The Dynamic Input setting allows you to input commands and dimensions directly on the drawing area. This can help you avoid errors and create precise measurements for your objects.
+                            </li>
+                        </ul>
+                        By using these precision tools and settings in AutoCAD, you can create accurate and detailed drawings that meet your design requirements.
+                    </p>
+                </article>
+            </div>
+
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <article class="border p-3 text-center">
+                    <h2>
+                        Locking Angles
+                    </h2>
+                    <p>
+                        In AutoCAD, you can lock angles to make it easier to draw lines and objects at specific angles. Here are two ways to lock angles in AutoCAD
+                        <ul>
+                            <li>
+                                Polar Tracking: The Polar Tracking feature allows you to lock angles to specific increments, such as 45 degrees or 90 degrees. When Polar Tracking is turned on, you can move your cursor to the desired angle and AutoCAD will snap to the nearest increment. To turn on Polar Tracking, click on the "Polar Tracking" button in the status bar at the bottom of the screen. You can then set the angle increment in the Polar Tracking dialog box.
+                            </li>
+                            <li>
+                                Ortho Mode: The Ortho Mode feature allows you to lock the angle of your cursor to the horizontal or vertical axis. When Ortho Mode is turned on, your cursor will move only in the horizontal or vertical direction
+                            </li>
+                            <li>
+                                To turn on Ortho Mode, click on the "Ortho Mode" button in the status bar at the bottom of the screen. You can also press the F8 key on your keyboard to toggle Ortho Mode on and off
+                            </li>
+                            <li>
+                                By using these tools, you can draw lines and objects at precise angles in AutoCAD. Additionally, you can combine these tools with other precision tools, such as the Snap and Grid settings, to create accurate and detailed drawings
+                            </li>
+                        </ul>
+                    </p>
+                </article>
+            </div>
+
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <article class="border p-3 text-center">
+                    <h2>
+                        Set Default Object Snaps
+                    </h2>
+                    <p>
+                        You can set default object snaps in AutoCAD so that they are automatically enabled whenever you start a new drawing. Here's how to set default object snaps in AutoCAD
+                        <ul>
+                            <li>
+                                Open AutoCAD and start a new drawing.
+                            </li>
+                            <li>
+                                Type "SNAPMODE" in the command line and press Enter. The Snap Mode dialog box will appear
+                            </li>
+                            <li>
+                                In the Snap Mode dialog box, select the object snaps that you want to use as defaults. You can select as many object snaps as you want.
+                            </li>
+                            <li>
+                                Click the "OK" button to save your settings and close the dialog box.
+                            </li>
+                            <li>
+                                Type "OSNAP" in the command line and press Enter. The Object Snap Settings dialog box will appear
+                            </li>
+                            <li>
+                                In the Object Snap Settings dialog box, make sure that the "Object Snap On" option is selected. This will ensure that your default object snaps are enabled
+                            </li>
+                            <li>
+                                Click the "OK" button to save your settings and close the dialog box.
+                            </li>
+                        </ul>
+                        Now, whenever you start a new drawing, your default object snaps will be automatically enabled. You can still turn off individual object snaps or enable additional ones as needed. Additionally, you can save your object snap settings as a template or profile, so that you can easily use them in other drawings.
+                    </p>
+                </article>
+            </div>
+
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <article class="border p-3 text-center">
+                    <h2>
+                        Object Snap Tracking
+                    </h2>
+                    <p>
+                        Object Snap Tracking in AutoCAD is a powerful tool that allows you to draw accurately by tracking the exact position of a specific point or intersection on an object. Here's how to use Object Snap Tracking in AutoCAD:
+                        <ul>
+                            <li>
+                                Turn on Object Snap Tracking by clicking on the "Object Snap Tracking" button in the status bar at the bottom of the screen, or by typing "OTRACK" in the command line and pressing Enter.
+                            </li>
+                            <li>
+                                Select the object snap that you want to use as the tracking reference point. This can be any object snap, such as endpoint, midpoint, or center.
+                            </li>
+                            <li>
+                                Move your cursor to the location where you want to start tracking, and then select the object snap point on the object that you want to track. A tracking line will appear, showing the path of the object snap tracking.
+                            </li>
+                            <li>
+                                Move your cursor in the direction that you want to track, and AutoCAD will show you the distance and angle of the tracking line as you move.
+                            </li>
+                            <li>
+                                Click to create your object or line at the desired location
+                            </li>
+                        </ul>
+                        Object Snap Tracking can be especially useful when you need to draw lines that are perpendicular, parallel, or tangent to an existing object. By using Object Snap Tracking, you can ensure that your lines are drawn accurately and precisely.
+                    </p>
+                </article>
+            </div>
+
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <article class="border p-3 text-center">
+                    <h2>Handy Function Key Reference
+                    </h2>
+                    <p>
+                        Here's a handy Function Key Reference for AutoCAD that can help you speed up your workflow and perform common tasks more efficiently:
+                        <ul>
+                            <li>
+                                F1: Help - Opens the AutoCAD Help window
+                            </li>
+                            <li>
+                                F2: Text Window - Opens the Text Window, which displays the command line history and other information
+                            </li>
+                            <li>
+                                F3: Object Snap - Toggles Object Snap on and off.
+                            </li>
+                            <li>
+                                F4: 3D Object Snap - Toggles 3D Object Snap on and off.
+                            </li>
+                            <li>
+                                F5: Isoplane - Toggles between isometric planes (top, left, right).
+                            </li>
+                            <li>
+                                F6: Dynamic UCS - Toggles Dynamic UCS on and off.
+                            </li>
+                            <li>
+                                F7: Grid - Toggles the Grid on and off.
+                            </li>
+                            <li>
+                                F8: Ortho - Toggles Ortho mode on and off.
+                            </li>
+                            <li>
+                                F9: Snap - Toggles Snap mode on and off.
+                            </li>
+                            <li>
+                                F10: Polar Tracking - Toggles Polar Tracking on and off.
+                            </li>
+                            <li>
+                                F11: Object Snap Tracking - Toggles Object Snap Tracking on and off
+                            </li>
+                            <li>
+                                F12: Dynamic Input - Toggles Dynamic Input on and off.
+                            </li>
+                        </ul>
+                        By memorizing these function keys and incorporating them into your workflow, you can save time and increase your productivity in AutoCAD. Additionally, you can customize the function keys to perform specific commands or macros that you use frequently.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </main>
+{% endblock %}
