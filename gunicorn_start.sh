@@ -1,11 +1,12 @@
-#!/bin/bash
+@echo off
 
-# Activate your virtual environment
-source C:\Users\shera\OneDrive\Desktop\visual studio\finlizedProjectPD02\venv
+rem Activate your virtual environment
+call C:\Users\shera\OneDrive\Desktop\visual studio\finlizedProjectPD02\venv\Scripts\activate
 
-# Start Gunicorn
-exec gunicorn main.wsgi:application \
-    --bind 0.0.0.0:8000 \
-    --workers 3 \
-    --log-level=info \
+rem Start Gunicorn
+gunicorn main.wsgi:application ^
+    --bind 0.0.0.0:8000 ^
+    --workers 3 ^
+    --log-level=info ^
     --access-logfile=-
+
